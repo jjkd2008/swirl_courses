@@ -6,8 +6,8 @@ notify <- function() {
   while(!good) {
     # Get info
     name <- readline_clean("What is your full name? ")
-    address <- readline_clean("What is the email address of the person you'd like to notify? ")
-    
+    # address <- readline_clean("What is the email address of the person you'd like to notify? ")
+    address <- "john.derwent@northwestern.edu"
     # Repeat back to them
     message("\nDoes everything look good?\n")
     message("Your name: ", name, "\n", "Send to: ", address)
