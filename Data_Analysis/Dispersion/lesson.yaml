@@ -221,6 +221,11 @@
 - Class: text
   Output: 'You have officially mastered the concept of dispersion and have fully learned
     how to read and interpret a box-and-whisker plot. These are two very valuable
-    tools used everyday in descriptive statistics. Congratulations! In the next lesson,
-    you will learn about data visualization. '
+    tools used everyday in descriptive statistics. Congratulations!'
 
+- Class: mult_question
+  Output: Would you like to inform someone about your successful completion of this lesson?
+  CorrectAnswer: NULL
+  AnswerChoices: Yes; No
+  AnswerTests: notify()
+  Hint: NULL
