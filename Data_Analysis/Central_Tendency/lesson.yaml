@@ -197,3 +197,9 @@
     important measures of central tendency: mean, median, and mode. You also know
     how to compute these using R.'
 
+- Class: mult_question
+  Output: Would you like to inform someone about your successful completion of this lesson?
+  CorrectAnswer: NULL
+  AnswerChoices: Yes; No
+  AnswerTests: notify()
+  Hint: NULL
